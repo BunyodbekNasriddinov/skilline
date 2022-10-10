@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #fff2e1;
+}
+
+.site-header {
+  background-color: #fff;
+}
+
+.nav {
+  display: flex;
+  padding: 86px 0px;
+  justify-content: space-between;
+}
+
+.nav-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.nav-item {
+  margin-left: 80px;
+}
+
+.item-link {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 0.02em;
+  color: #252641;
+  text-decoration: none;
+}
+
+.signin-btn {
+  padding: 13px 50px;
+  background: #ffffff;
+  box-shadow: 0px 20px 24px rgba(0, 0, 0, 0.03);
+  border: none;
+  border-radius: 80px;
+}
+
+.signup-btn {
+  padding: 6px 36px;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  border: none;
+  background: #F48C06;
+  border-radius: 80px;
+}
